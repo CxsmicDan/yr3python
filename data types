@@ -1,0 +1,17 @@
+#datatypes
+character = "d"
+realFloat = 6.7
+integer = 67
+boolean = True/False
+string = "sixseven67"
+#C.R.I.B.S is a way to remember all the data types
+#you can "cast" for data types
+#like this:
+name = str(input("enter name"))
+#str means we want the data as a string
+age = int(input("enter age"))
+#int means we want a integer
+price = float(input("enter price of a freddo"))
+#float means we want a realfloat
+
+#this is called casting 
