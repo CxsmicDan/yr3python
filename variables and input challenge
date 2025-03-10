@@ -1,0 +1,12 @@
+#variables and input challenge
+name = input("Enter Your Name >>")
+print("Hello", name)
+age = input("Thanks! Now Please Enter Your Age >>")
+print("Got it!", name , "is", age)
+favcolour = input("Thanks! Now Please Enter Your Favourite Colour >>")
+print("Thanks!", name , "is", age , "and loves the colour" ,favcolour)
+sportsteam = input("Thanks! Now Please Enter Your Favourite Football Team >>")
+print("Alright!", name , "is", age , "and loves the colour" , favcolour , name , "also loves" , sportsteam )
+print("")
+school = input("Nearly there! Please enter your current school! >>")
+print("Alright!", name , "is", age , "and loves the colour" , favcolour , name , "also loves" , sportsteam , "and attends" ,school) 
