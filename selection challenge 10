@@ -1,0 +1,16 @@
+#selectionchallenge10
+
+food = str(input("do you want a kebab? (y/n) >>"))
+if food == "n":
+  print("you feeling good, u need an ambulence??")
+elif food =="y":
+  print("NICEE...")
+  chilli = str(input("with chillli sauce? (y/n)? >>"))
+  if chilli == "y":
+    print("of course you want chilli sauce lol")
+  elif:
+    print("hmm")
+    
+  else:
+    
+else:
