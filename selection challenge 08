@@ -1,0 +1,19 @@
+#selectionchallenge8
+
+print("----------MENU----------")
+print("")
+print("")
+print("SINGLE PLAYER MODE (1)")
+print("CO-OP MODE (2)")
+print("ONLINE MODE (3)")
+print("")
+mode = int(input("please enter the mode you want to play(e.g 1) >>"))
+
+if mode == 1:
+  print("ENTERING SINGLEPLAYER MODE")
+elif mode ==2:
+  print("ENTERING CO-OP MODE")
+elif mode == 3:
+  print("ENTERING ONLINE MODE")
+else:
+  print("INVALID CHOICE")
