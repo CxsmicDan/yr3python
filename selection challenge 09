@@ -1,0 +1,10 @@
+#selectionchallenge9
+print("welcome to the 89th street club")
+age = int(input("you must be 18+ to enter. please enter your age to get in>>>"))
+inviteormember = str(input("do you have an invite or are you a member (y/n?) >>>"))
+
+if age >=18 and inviteormember == "y": 
+  print("LETS GET PARTYING!!")
+  
+else:
+  print("Sorry, you cant come in...")
