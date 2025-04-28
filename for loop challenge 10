@@ -1,0 +1,25 @@
+#For loop challenge10 (GCSECS.COM)
+
+#Paint and decorating houses software
+#You code must ask "how many houses are booked in?"
+#user enters e.g. 3
+#then code displays "For house 1"
+#"How many walls to be painted?"
+#user enters e.g.2
+#"What colour is it?" <-this is repeated for each wall
+#HINT: use a loop in a loop
+
+housesbooked = int(input("how many houses are booked in?>>>"))
+for i in range(1,housesbooked+1):
+  print("for house", i)
+  painted = int(input("how many wall/s to be painted"))
+  for i in range(1, painted+1):
+    print("for wall", i)
+    colour = str(input("what colour will it be?>>>"))
+    print("got it, house" , i)
+    print("will have ", painted , "wall/s")
+    print("wall", i)
+    print("will be" , colour)
+
+print("have a nice day!!")
+    
