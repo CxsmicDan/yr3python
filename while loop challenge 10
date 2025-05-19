@@ -1,0 +1,13 @@
+#While loop challenge10 (gcsecs.com)
+
+#Write some code that repeatedly asks you..
+#"What coding language is this?"..
+#and displays "ok, thanks!" when you type in "Python"
+correct = "N"
+userchoice = "idk"
+while userchoice != "Python":
+  userchoice = str(input("WHAT CODING LANGUAGE IS THIS????"))
+
+print("ok thx")
+
+    
